@@ -12,4 +12,3 @@ print(t)
 diff = sum(diff(c, d) for (c, d) in zip(s, t))
 total = len(s) * 4
 print('%d/%d' % (diff, total))
-
